@@ -3,7 +3,7 @@
     justify-content: space-evenly;  /* espaçamentos iguais entre os elementos no flex */
     align-items: center; /* alinha os elementos do flex  ao centro na vertical */
     flex-wrap: wrap;   /* faz com que os elementos quando nao cabe na linha flex passa para linha debaixo*/
-    column-gap: 33px; /* serve para criar uma lacuna vertical entre os elementos*/ 
+    column-gap: 75px; /* serve para criar uma lacuna vertical entre os elementos*/ 
 }
 
 .categorias__lista {
