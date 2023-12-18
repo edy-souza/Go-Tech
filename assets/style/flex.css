@@ -26,11 +26,17 @@
     flex-grow: 1; /* A medida que aumenta a tela a linha barra aumenta junto ou diminui*/ 
 }
 
-.eventos__lista , .agenda__lista{
+.eventos__lista , .agenda__lista {
     display: flex;
     flex-wrap: wrap;
     column-gap: 1.5rem;
-    
+    row-gap: 1rem;   
+    justify-content: center;
+}
+
+.eventos__item {
+    flex-grow: 1;
+    max-width: 400px    ;
 }
 
 @media (min-width: 720px) {
@@ -43,6 +49,10 @@
         column-gap: 1.5rem;
         row-gap: 1rem;
     }    
+
+    .eventos__lista {
+        justify-content: end;
+    }
 }
 
 @media (min-width: 1440px) {
