@@ -3,14 +3,25 @@
     justify-content: space-evenly;  /* espaçamentos iguais entre os elementos no flex */
     align-items: center; /* alinha os elementos do flex  ao centro na vertical */
     flex-wrap: wrap;   /* faz com que os elementos quando nao cabe na linha flex passa para linha debaixo*/
-    column-gap: 33px; /* serve para criar uma lacuna vertical entre os elementos*/
-    
+    column-gap: 33px; /* serve para criar uma lacuna vertical entre os elementos*/ 
+}
+
+.categorias__lista {
+    display: flex; 
+    flex-direction: column; /* Trransforma o flex linha em flex coluna */
+    row-gap: .5rem; /* Espaçamento em linha entre os elementos*/
 }
 
 @media (min-width: 720px) {
     .menu {
         column-gap: 75px;
     }
+
+    .categorias__lista {
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+    }    
 }
 
 @media (min-width: 1440px) {
