@@ -1,0 +1,42 @@
+.menu {
+    display: flex;
+    justify-content: space-evenly;  /* espaçamentos iguais entre os elementos no flex */
+    align-items: center; /* alinha os elementos do flex  ao centro na vertical */
+    flex-wrap: wrap;   /* faz com que os elementos quando nao cabe na linha flex passa para linha debaixo*/
+    column-gap: 33px; /* serve para criar uma lacuna vertical entre os elementos*/
+    
+}
+
+@media (min-width: 720px) {
+    .menu {
+        column-gap: 75px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .menu {
+        column-gap: 105px;
+        flex-wrap: nowrap;
+    }
+
+    .menu__item:nth-child(1) { /* Ordena os elementos do HEADER (cabeçalho)*/ 
+        order: 1;
+    }
+
+    .menu__item:nth-child(2) { /* Ordena os elementos do HEADER (cabeçalho)*/ 
+        order: 3;
+    }
+
+    .menu__item:nth-child(3) { /* Ordena os elementos do HEADER (cabeçalho)*/ 
+        order: 4;
+    }
+
+    .menu__item:nth-child(4) { /* Ordena os elementos do HEADER (cabeçalho)*/ 
+        order: 5 ;
+    }
+
+    .menu__item:nth-child(5) { /* Ordena os elementos do HEADER (cabeçalho)*/ 
+        order: 2 ;
+    }
+
+}
