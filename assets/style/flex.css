@@ -1,15 +1,36 @@
-.menu {
+.menu  {
     display: flex;
     justify-content: space-evenly;  /* espaçamentos iguais entre os elementos no flex */
     align-items: center; /* alinha os elementos do flex  ao centro na vertical */
     flex-wrap: wrap;   /* faz com que os elementos quando nao cabe na linha flex passa para linha debaixo*/
     column-gap: 75px; /* serve para criar uma lacuna vertical entre os elementos*/ 
+    
 }
+
+
 
 .categorias__lista {
     display: flex; 
     flex-direction: column; /* Trransforma o flex linha em flex coluna */
     row-gap: .5rem; /* Espaçamento em linha entre os elementos*/
+}
+
+.destaques {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 35px;
+}
+
+.destaques__barra {
+    flex-grow: 1; /* A medida que aumenta a tela a linha barra aumenta junto ou diminui*/ 
+}
+
+.eventos__lista , .agenda__lista{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    
 }
 
 @media (min-width: 720px) {
