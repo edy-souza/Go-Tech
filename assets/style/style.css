@@ -42,22 +42,11 @@ img:hover {
 
 /* Header */
 
-.menu {
-    background-color: black;
-    font-family: var(--fonte-secundaria);
-    font-size: 16px;
-    height: 258px;
-    padding: 0 1.5rem;
-    white-space: nowrap;
-}
-
-.menu__titulo {
-    background-image: url("../img/logo-branco-maior.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 40px 100px;
-    width: 100%;
-    cursor: pointer;
+.menu__titulo img {
+    width: 100%; /* Define a largura da imagem como 100% */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras abaixo da imagem */
+    background-image: url(../img/inter.png);
 }
 
 .menu__item a {
