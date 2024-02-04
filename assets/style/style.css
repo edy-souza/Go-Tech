@@ -203,6 +203,10 @@ img:hover {
     margin-bottom: 1rem;
 }
 
+.eventos__lista a {
+    text-decoration: none;
+}
+
 .eventos__item {
     background-color: var(--cinza-claro);
     width: 307px;
@@ -230,7 +234,7 @@ img:hover {
     padding-left: 1rem;
 }
 
-.eventos__item button {
+.eventos__item button  {
     outline: none;
     border: none;
     background-color: black;
