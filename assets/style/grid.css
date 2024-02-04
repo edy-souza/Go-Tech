@@ -41,7 +41,8 @@
     align-self: end;
 }
 
-.eventos__item button {
+.eventos__item button,
+.eventos__lista a{
     grid-area: botao;
 }
 

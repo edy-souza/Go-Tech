@@ -360,6 +360,7 @@ img:hover {
         height: 217px;
     }
 
+ 
     .menu__titulo {
         width: auto;
         padding: 40px 55px;
@@ -467,6 +468,7 @@ img:hover {
 
     .eventos__item {
         width: 280px;
+        
     }
 
     /*Agenda*/
