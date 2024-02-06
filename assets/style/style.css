@@ -251,7 +251,7 @@ img:hover {
 .agenda__botao button:hover,
 .eventos__item button:hover,
 .agenda__atracao button:hover {
-    background-color: var(--amarelo);
+    background-color: #ff7200;
 }
 
 .eventos__botao button,
