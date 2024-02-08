@@ -469,6 +469,11 @@ img:hover {
 
     /*Eventos*/
 
+    .eventos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .eventos__item {
         width: 280px;
         
