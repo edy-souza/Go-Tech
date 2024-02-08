@@ -200,6 +200,11 @@ img:hover {
 
 /* Eventos */
 
+.eventos {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .eventos__titulo {
     margin-bottom: 1rem;
 }
@@ -469,11 +474,7 @@ img:hover {
 
     /*Eventos*/
 
-    .eventos {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
+   
     .eventos__item {
         width: 280px;
         
