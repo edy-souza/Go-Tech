@@ -47,6 +47,7 @@ img:hover {
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Remove espaços extras abaixo da imagem */
     background-image: url(../img/inter.png);
+    margin-bottom: 20px;
 }
 
 .menu__item a {
