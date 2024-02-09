@@ -31,6 +31,11 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
+.agenda {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 img {
     opacity: 1;
     transition: 0.5s;
@@ -201,8 +206,12 @@ img:hover {
 /* Eventos */
 
 .eventos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 .eventos__titulo {
@@ -212,6 +221,11 @@ img:hover {
 .eventos__lista a {
     text-decoration: none;
 }
+
+.eventos__item {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px; 
+  }
 
 .eventos__item {
     background-color: var(--cinza-claro);
@@ -360,6 +374,12 @@ img:hover {
 }
 
 
+@media screen and (min-width: 1200px) {
+    .eventos__item {
+      width: calc(33.33% - 20px); 
+      margin-bottom: 20px; 
+    }
+  }
 
 @media(min-width: 720px) {
 
