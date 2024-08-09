@@ -11,3 +11,5 @@
 🚀 Figma <br>
 🚀 Git <br>
 🚀 GitHub
+
+[Acesse o GoTech](https://go-tech-drab.vercel.app/)
