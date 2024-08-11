@@ -4,7 +4,10 @@
 
 💡 💡 💡 Com essa abordagem inovadora, o Projeto Go tech visa não apenas conquistar a atenção dos recrutadores, mas também evidenciar o meu comprometimento e proatividade em busca pela oportunidade de estagiar no Inter. 👨‍💻👨‍💻👨‍💻 
 
-<img src="./assets/img/print.jpg" alt="print da página">
+
+
+https://github.com/user-attachments/assets/40a11f68-ecac-40a0-98f3-dc2fd74d9acc
+
 
 ## Tecnologias Utilizadas
 
